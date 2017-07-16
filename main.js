@@ -45,7 +45,6 @@ function clearRect(x, y) {
       }
     }
   }
-  //ctx.clearRect(x - 1.1 * d, y - 1.1 * d, d * 2 + 2.2, d * 2 + 2.2);
 }
 
 function draw(event) {
