@@ -62,10 +62,10 @@ function repeat(x, y, depth) {
   fillRect(x, y);
   setTimeout(function() {
     clearRect(x, y);
-  }, Math.random() * 200 + 100);
+  }, Math.random() * 300 + 100);
   for (var i = 0; i < Math.random() * 5; i++) {
     setTimeout(function() {
       repeat(x + (Math.random() - 0.5) * 60, y + (Math.random() - 0.5) * 60, depth + 1);
-    }, Math.random() * 75 + 50);
+    }, Math.random() * 125 + 50);
   }
 }
